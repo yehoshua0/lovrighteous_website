@@ -1,17 +1,18 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
   <div>
-    <a href="https://vite.dev" target="_blank">
+    <!-- <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+    </a> -->
+    <a href="https://www.linkedin.com/in/dzodzoesenanou13/" target="_blank">
+      <!-- <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" /> -->
+      <img src="./assets/me.png" class="me" alt="Lovrighteous picture" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld msg="Dzodzoenyenye (Adjowa) SENANOU" />
 </template>
 
 <style scoped>
@@ -26,5 +27,16 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.me {
+  /* height: 100px; */
+  /* width: 20em; */
+  border-radius: 50%;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.me:hover {
+  filter: drop-shadow(0 0 2em #dc134c);
 }
 </style>
